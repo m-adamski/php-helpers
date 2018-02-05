@@ -1,0 +1,32 @@
+{
+    "name": "m-adamski/php-helpers",
+    "description": "A PHP library containing useful functions",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maciej Adamski",
+            "email": "m.adamski@ideacode.pl"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Adamski\\Helpers\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
